@@ -19,8 +19,15 @@ var flipCard = function () {
 	this.setAttribute('src', cards[cardId].cardImage);
 	checkForMatch();
 }
-var cardID();
-console.log("User flipped" + cards[cardID]);
+
+//create function to check for match
+function checkForMatch() {
+if (cardsInPlay[0] === cardsInPlay[1]) {
+	console.log("You found a match!");
+ }	else {
+	console.log("Sorry, try again!")
+ }
+}
 
 //create variable for the first card flipped
 var cardOne = cards[0];
