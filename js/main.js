@@ -21,4 +21,4 @@ if (cardsInPlay [0] === cardsInPlay [2] ) {
 	alert ('Try again.');
 }
 
-
+//////
