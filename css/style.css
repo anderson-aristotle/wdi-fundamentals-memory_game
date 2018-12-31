@@ -10,80 +10,83 @@ main {
 
 h1 {
 	margin: 0;
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 1px;
+	font-size: 45px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-family: "Raleway", sans-serif;
+	color: #0D2C40;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: "Droid Serif", sans-serif;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+a {
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0px 20px;
+	border-bottom: 2px solid transparent;
 }
 
 header {
 	background-color: #F15B31;
-	font: (#FFFFFF);
 	padding: 30px 20px;
 }
 
-img {
-	margin: 40px 8px;
-}
-
-h2 {
-	background-color: #00A6B3;
-	font: (#FFFFFF);
-	padding: 50px auto;
-}
-
 nav {
-	background-color: #aaaaaa;
-	font-family: Arial, sans-serif;
+	background-color: #00A6B3;
+	padding: 20px 0px;
 }
 
-a {
-	background-color: #ff7900;
-	color: white;
-	text-decoration: none;
-	display: block;
-	padding: 10px;
-	width: 200px;
-	border-bottom: 2px solid transparent;
-}
-
-.media {
-	text-transform: uppercase;
-	padding: auto 20px;
-	background-color: #0D2C40;
-	color: white;
-	font-size: 14px;
-	letter-spacing: .08em;
-	font-weight: 500;
-}
-
-.copyright {
-	font-family: Raleway;
-	float: left;
-}
-
-.message {
-	font-family: Raleway;
-	float: right;
-}
-
-a:hover {
-	background-color: #aaaa00;
-	border-color: white;
-}
-
-h3 {
-	margin: auto 20px;
-}
-
-.name {
-	color: (#F15B31);
+main {
+	width: 850px;
+	margin: 20px auto;
 }
 
 footer {
 	text-transform: uppercase;
-	padding: auto 20px;
+	padding: 0px 20px;
 	background-color: #0D2C40;
-	color: white;
+	color: #FFFFFF;
 	font-size: 14px;
 	letter-spacing: .08em;
 	font-weight: 500;
+}
+
+a:hover {
+	border-bottom: 2px solid #FFFFFF;
+}
+
+.copyright {
+	font-family: "Raleway", sans-serif;
+	float: left;
+}
+
+.message {
+	font-family: "Raleway", sans-serif;
+	float: right;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
 }
 
 .clearfix:after {
